@@ -358,7 +358,6 @@ body {
   font-family: "Mulish", "Arial", sans-serif;
   display: flex;
   flex-direction: column;
-  background-color: #f9f9f9;
 }
 
 img {
@@ -698,5 +697,127 @@ img {
     margin: 1rem 0;
     font-size: 0.8rem;
     padding: 0.6rem;
+  }
+}
+.categories {
+  background-color: #f9f9f9;
+}
+.categories__container {
+  padding: 2rem 20px;
+  background-color: #f9f9f9;
+}
+.categories__top {
+  margin-bottom: 2rem;
+  max-width: 760px;
+}
+.categories__heading {
+  margin: 0 0 1rem;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #222222;
+  line-height: 1.7;
+}
+.categories__desc {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555555;
+}
+.categories__list {
+  margin: 0 -1rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.categories__item {
+  margin: 1rem;
+}
+.categories__link {
+  padding: 1.25rem;
+  display: inline-block;
+  color: #333333;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+}
+.categories__img {
+  margin: 0.8rem 0 2.8rem;
+}
+.categories__item-desc {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+.categories__btn {
+  padding: 1.25rem;
+  color: #333333;
+  text-decoration: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border: inherit;
+  cursor: pointer;
+}
+.categories__btn-img {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 853px) {
+  .categories__top {
+    margin-bottom: 1.5rem;
+  }
+  .categories__heading {
+    margin-bottom: 0.75rem;
+    font-size: 1.75rem;
+  }
+  .categories__desc {
+    font-size: 1rem;
+  }
+  .categories__link, .categories__btn {
+    padding: 1rem;
+    height: 170px;
+    width: 170px;
+  }
+  .categories__img {
+    margin-bottom: 2rem;
+  }
+  .categories__item-desc {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .categories__container {
+    padding: 1.5rem 0.75rem;
+  }
+  .categories__top {
+    margin-bottom: 1rem;
+  }
+  .categories__heading {
+    font-size: 1.5rem;
+  }
+  .categories__desc {
+    font-size: 0.75rem;
+  }
+  .categories__item {
+    margin: 0.5rem;
+  }
+  .categories__link, .categories__btn {
+    width: 147px;
+    height: 150px;
+  }
+  .categories__item-desc {
+    font-size: 0.9rem;
+    font-weight: 600;
   }
 }/*# sourceMappingURL=main.css.map */
